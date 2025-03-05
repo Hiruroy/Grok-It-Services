@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="bg-black z-10 w-full text-white fixed top-0 ">
+      <header className="bg-black  z-10 w-full text-white fixed top-0 ">
         <div className="container">
           <div className="bg-base-400 h-[90px] flex items-center justify-between">
             <NavLink to="/" className="logo flex items-center gap-[15px]">

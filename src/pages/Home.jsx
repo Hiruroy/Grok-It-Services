@@ -128,7 +128,7 @@ export default function Home() {
   return (
     <>
       {/* -------hero section-------- */}
-      <section className="bg-black mt-[90px]">
+      <section className="bg-black overflow-hidden mt-[90px]">
         <div className="container ">
           <div className="grid text-center min-h-[calc(100vh-90px)] md:text-left items-center grid-cols-1 md:grid-cols-[50%_50%] xl:grid-cols-[60%_40%] lg:grid-cols-[55%_40%] gap-[25px]">
             <div
@@ -236,7 +236,7 @@ export default function Home() {
         </div>
       </section>
       {/* =====about section======== */}
-      <section className="aboutsection mt-6 md:mt-[50px]">
+      <section className="aboutsection overflow-hidden mt-6 md:mt-[50px]">
         <div className="container">
           <div className="grid text-center  md:text-left justify-between items-center grid-cols-1 md:grid-cols-[44%_45%] gap-[50px]">
             <div
@@ -294,7 +294,7 @@ export default function Home() {
       </section>
 
       {/* -======services====--- */}
-      <section className="services mt-[50px]  ">
+      <section className="services overflow-hidden mt-[50px]  ">
         <div className="mx-4 rounded-2xl py-5  bg-black overflow-hidden">
           <div className="container !md:mr-0">
             <div className="grid md:py-[130px] text-center  md:text-left justify-between items-center grid-cols-1 md:grid-cols-[50%_50%] lg:grid-cols-[40%_70%] gap-[25px]">
@@ -416,7 +416,7 @@ export default function Home() {
       </section>
 
       {/* --==WHY CHOOSE US===-- */}
-      <section className="py-16 bg-[url(/img/choose-shape.png)] bg-[100%]">
+      <section className="py-16 overflow-hidden bg-[url(/img/choose-shape.png)] bg-[100%]">
         <div className="container  ">
           <div className="mx-auto  text-center md:w-[100%] lg:w-[60%] pb-10">
             <h3 className="titel">WHY CHOOSE US</h3>
@@ -452,7 +452,7 @@ export default function Home() {
       </section>
 
       {/* --==videopopup section===-- */}
-      <section className="md:pt-16 w-full  ">
+      <section className="md:pt-16 overflow-hidden w-full  ">
         <div className="container  ">
           {/* Thumbnail Image */}
           <div className="relative   cursor-pointer w-full">
@@ -509,7 +509,7 @@ export default function Home() {
       </section>
 
       {/* -======Project====--- */}
-      <section className="Project  -mt-[100px]">
+      <section className="Project overflow-hidden -mt-[100px]">
         <div className="mx-4 rounded-2xl pt-10 pb-5  bg-black overflow-hidden">
           <div className="container !md:mr-0">
             <div className="project_content mx-auto lg:w-[40%] text-center pb-15 pt-25">
@@ -566,8 +566,8 @@ export default function Home() {
       </section>
 
       {/* --==TESTIMONIALS===-- */}
-      <section className=" testimonial my-5 md:my-[100px]">
-        <div className="container">
+      <section className=" testimonial overflow-hidden my-5 md:my-[100px]">
+        <div className="container overflow-hidden">
           <div className=" grid gap-3  md:grid-cols-2 items-center">
             {/* Left Section (Text) */}
             <div
@@ -638,7 +638,7 @@ export default function Home() {
       </section>
 
       {/* --==ARTICLE===-- */}
-      <section className="md:py-16 bg-[url(/img/choose-shape.png)] bg-[100%]">
+      <section className="overflow-hidden md:py-16 bg-[url(/img/choose-shape.png)] bg-[100%]">
         <div className="container  ">
           <div className="mx-auto  text-center md:w-[100%] lg:w-[70%] pb-10">
             <h3 className="titel">ARTICLE</h3>
